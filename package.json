@@ -1,0 +1,22 @@
+{
+  "name": "pruebaspy",
+  "version": "1.0.0",
+  "description": "pruebas ejecutar python desde node js",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --pretty --transpile-only src/app.ts",
+    "test": "test"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.16.1",
+    "tslint": "^5.12.1",
+    "typescript": "^3.3.3"
+  },
+  "dependencies": {
+    "@types/python-shell": "^1.0.3",
+    "express": "^4.16.4",
+    "ts-node-dev": "^1.1.8"
+  }
+}
